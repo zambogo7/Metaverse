@@ -112,7 +112,7 @@ const Landing = () => {
       <section className="bg-primary p-8 md:p-[100px] flex flex-col md:flex-row justify-between items-center gap-10">
         <div className="w-full max-w-[415px] flex flex-col basis-2/4">
           <h1 className="font-default font-bold text-white text-5xl mb-[35px]">
-            Metabnb NFTs
+            Metraverse Safaris NFTs
           </h1>
           <p className="mb-14 text-white font-default">
             Discover our NFT gift cards collection. Loyal customers gets amazing
