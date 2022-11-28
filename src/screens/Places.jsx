@@ -13,7 +13,7 @@ const Places = () => {
             metaBNB.map((data) => (
               <div
                 key={data.id}
-                className="w-[292px] m-0 flex flex-col justify-start items-center rounded-[15px] border bg-white border-border p-4 gap-3"
+                className="default-cards-places w-[292px] m-0 flex flex-col justify-start items-center rounded-[15px] border bg-white border-border p-4 gap-3"
               >
                 <section className="w-[260px] h-boxImg rounded-[15px] overflow-hidden border border-border">
                   <img src={data.image} alt="" className="m-0" />
@@ -24,18 +24,14 @@ const Places = () => {
                     <span className="text-text text-xs font-normal font-default">
                       {data.name}
                     </span>
-                    <span className="text-text text-xs font-normal font-default">
-                      {data.keyFeatures}
-                    </span>
+                   
                   </div>
                   <div className="w-full flex justify-between">
                     {" "}
                     <span className="text-text text-xs font-normal font-default">
                       {data.animals}
                     </span>
-                    <span className="text-text text-xs font-normal font-default">
-                      {data.others}
-                    </span>
+                   
                   </div>
                   <div className="w-full flex justify-start items-center gap-2">
                     <img src={Star} alt="" />

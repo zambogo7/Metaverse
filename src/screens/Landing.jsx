@@ -10,6 +10,7 @@ import {
 
 import { Footer, Navbar } from "../components/";
 import home from "../data/home";
+import './index.css';
 
 const Landing = () => {
   return (
@@ -61,7 +62,7 @@ const Landing = () => {
       </div>
 
       {/* next adventure */}
-      <section className="px-12 lg:px-[100px]  text-center mt-10 lg:mt-[58px] flex flex-col items-center gap-[43px]">
+      <section className="px-12 lg:px-[100px]  mt-10 lg:mt-[58px] flex flex-col items-center gap-[43px]">
         <h1 className="text-black text-3xl lg:text-5xl font-bold font-default">
           Inspiration for your next adventure
         </h1>
@@ -70,9 +71,9 @@ const Landing = () => {
             home.map((data) => (
               <div
                 key={data.id}
-                className="w-[292px] m-0 flex flex-col justify-start items-center rounded-[15px] border bg-white border-border p-4 gap-3"
+                className=" default-cards-landing w-[292px] m-0 flex flex-col justify-start items-center rounded-[15px] border bg-white border-border  p-4 gap-3"
               >
-                <section className="w-[260px] h-[265px] rounded-[15px] overflow-hidden border border-border">
+                <section className=" w-[260px] h-[265px] rounded-[15px] overflow-hidden border border-border">
                   <img src={data.image} alt="" className="m-0" />
                 </section>
                 <section className="w-full flex flex-col gap-2.5">
@@ -81,18 +82,14 @@ const Landing = () => {
                     <span className="text-text text-xs font-normal font-default">
                       {data.name}
                     </span>
-                    <span className="text-text text-xs font-normal font-default">
-                      {data.keyFeatures}
-                    </span>
+                  
                   </div>
                   <div className="w-full flex justify-between">
                     {" "}
                     <span className="text-text text-xs font-normal font-default">
                       {data.animals}
                     </span>
-                    <span className="text-text text-xs font-normal font-default">
-                      {data.others}
-                    </span>
+      
                   </div>
                   <div className="w-full flex justify-start items-center gap-2">
                     <img src={Star} alt="" />
