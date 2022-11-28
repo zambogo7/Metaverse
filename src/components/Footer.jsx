@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import { Facebook, Instagram, LogoWhite, Twitter } from "../assets";
 
 const Footer = () => {
@@ -23,30 +24,30 @@ const Footer = () => {
       <section className="flex flex-col gap-2 lg:gap-6 text-right lg:text-left">
         <p className="font-bold text-lg text-white font-default">Community</p>
         <div className="flex flex-col gap-3.5">
-          <p className="footer__link">Hotels</p>
-          <p className="footer__link">Restaurants</p>
-          <p className="footer__link">Tour Guides</p>
-          <p className="footer__link">Travel Agencies</p>
-          <p className="footer__link">Tourist</p>
+          <Link to="/" className="footer__link">Hotels</Link>
+          <Link to="/" className="footer__link">Restaurants</Link>
+          <Link to="/" className="footer__link">Tour Guides</Link>
+          <Link to="/" className="footer__link">Travel Agencies</Link>
+          <Link to="/" className="footer__link">Tourist</Link>
         </div>
       </section>
       <section className="flex flex-col gap-2 lg:gap-6">
         <p className="font-bold text-lg text-white font-default">Places</p>
         <div className="flex flex-col gap-3.5">
-          <p className="footer__link">National Parks</p>
-          <p className="footer__link">Game Reserves</p>
-          <p className="footer__link">Swamps</p>
-          <p className="footer__link">Islands</p>
-          <p className="footer__link">Mountains/Hills</p>
+          <Link to="/places-to-stay" className="footer__link">National Parks</Link>
+          <Link to="/places-to-stay" className="footer__link">Game Reserves</Link>
+          <Link to="/places-to-stay" className="footer__link">Swamps</Link>
+          <Link to="/places-to-stay" className="footer__link">Islands</Link>
+          <Link to="/places-to-stay" className="footer__link">Mountains/Hills</Link>
         </div>
       </section>
       <section className="flex flex-col gap-2 lg:gap-6 text-right lg:text-left">
         <p className="font-bold text-lg text-white font-default">About us</p>
         <div className="flex flex-col gap-3.5">
-          <p className="footer__link">Aims</p>
-          <p className="footer__link">Creators </p>
-          <p className="footer__link">Career</p>
-          <p className="footer__link">Contact us</p>
+          <Link to="/" className="footer__link">Aims</Link>
+          <Link to="/" className="footer__link">Creators </Link>
+          <Link to="/" className="footer__link">Career</Link>
+          <Link to="/" className="footer__link">Contact us</Link>
         </div>
       </section>
      
