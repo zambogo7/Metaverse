@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import {
   HomeGroup,
   MBToken,
@@ -109,15 +110,15 @@ const Landing = () => {
       <section className="bg-primary p-8 md:p-[100px] flex flex-col md:flex-row justify-between items-center gap-10">
         <div className="w-full max-w-[415px] flex flex-col basis-2/4">
           <h1 className="font-default font-bold text-white text-5xl mb-[35px]">
-            Metraverse Safaris NFTs
+            Metraverse Safaris VR
           </h1>
           <p className="mb-14 text-white font-default">
-            Discover our NFT gift cards collection. Loyal customers gets amazing
-            gift cards which are traded as NFTs. These NFTs gives our cutomer
-            access to loads of our exclusive services.
+            Discover our National Parks and Game reserves in the Metaverse. Loyal customers gets amazing
+            experience with the platform. These experience gives our cutomer
+            access to booking and actuall visiting the Parks and Game Reserves to enjoy and learn more.
           </p>
           <button className="h-12 rounded-lg flex justify-center items-center w-[156px] bg-white text-primary font-default font-light font-base">
-            Learn More
+            <Link to="/">Learn More</Link>
           </button>
         </div>
         <div className="relative w-full max-w-[704px]">
