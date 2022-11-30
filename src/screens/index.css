@@ -1,6 +1,9 @@
 .default-cards-landing{
-height:500px;
+height:400px;
 }
 .default-cards-places{
-height:400px;
+height:350px;
+}
+.color-primary{
+color:#daa520;
 }

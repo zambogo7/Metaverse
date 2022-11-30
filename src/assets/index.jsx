@@ -28,10 +28,22 @@ import Saiwa from "./images/places/Saiwa.jpg";
 import Samburu from "./images/places/samburu.jpeg";
 import Shaba from "./images/places/Shaba.jpeg";
 import TsavoEast from "./images/places/tsavoeast.jpeg";
+import Oldonyo from "./images/places/Ol-Donyo-Sabuk-National-Park.jpeg";
+import Ndere from "./images/places/NdereIslandNationalPark.jpg";
 import HomeGroup from "./images/places/combined.png";
 import NFTGroup from "./images/nfts/stacked.png";
+import africawatalli from "./images/home/africawatalii.png";
+import KTB from "./images/home/KenyaTourism.png";
+import KWS from "./images/home/KenyaWildlife.png";
+import MOT from "./images/home/MinistryOfTourism.jpg";
+import TTK from "./images/home/TTK.png";
 
 export {
+  africawatalli,
+  KTB,
+  KWS,
+  MOT,
+  TTK,
   Arrow,
   Close,
   Facebook,
@@ -60,6 +72,8 @@ export {
   Samburu,
   Shaba,
   TsavoEast,
+  Oldonyo,
+  Ndere,
   Setting,
   Star,
   Twitter,

@@ -2,7 +2,9 @@
 background-color:black;
 padding:3%;
 margin: auto;
-
+}
+.background-color-primary{
+background-color:#daa520;
 }
 .nav__link, .footer__link{
 color:wheat;

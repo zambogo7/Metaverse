@@ -36,7 +36,7 @@ const Navbar = () => {
       </div>
 
       <button
-        className="h-12 rounded-xl hidden lg:flex justify-center items-center w-[170px] bg-gradient-to-t from-primary to-primary text-white font-default font-light text-base"
+        className=" h-12 rounded-xl hidden lg:flex justify-center items-center w-[170px] background-color-primary bg-gradient-to-t text-white font-default font-light text-base"
         onClick={() => {
           setModalOpen(true);
         }}

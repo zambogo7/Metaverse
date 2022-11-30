@@ -15,6 +15,8 @@ import {
   Marsabit,
   MasaiMara,
   Meru,
+  Oldonyo,
+  Ndere,
 } from "../assets";
 
 const metaBNB = [
@@ -113,6 +115,18 @@ const metaBNB = [
     name: "Tsavo East National Park",
     animals: "The Park is home to most of the larger mammals, vast herds of dust –red elephant, Rhino, buffalo, lion, leopard, pods of hippo,crocodile, waterbucks, Lesser Kudu, Gerenuk and Hirola",
     image: TsavoEast,
+  },
+  {
+    id: "16",
+    name: "Ol Donyo Sabuk National Park",
+    animals: "Includes; buffalo, leopard, mongoose, bushbuck, olive baboon, colobus monkey, vervet monkey, Sykes' monkey, Kirk's dik-dik, bush pig, common duiker, reedbuck, rock hyrax, bushbaby, tree and ground squirrel, aardvark, porcupine, python and monitor lizard",
+    image: Oldonyo,
+  },
+  {
+    id: "17",
+    name: "Ndere Island National Park",
+    animals: "The island has beautiful sceneries with a distant view of Homa hills to the south, Mageta island to the East and the imagination of Kampala beyond south west horizon.",
+    image: Ndere,
   },
 ];
 

@@ -1,11 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import images from "../components/images";
+import ImageSlider from "../components/ImageSlider";
 import {
   HomeGroup,
-  MBToken,
-  MetaMaskWhite,
   NFTGroup,
-  OpenSea,
   Star,
 } from "../assets";
 
@@ -20,9 +19,9 @@ const Landing = () => {
       <section className="flex flex-col items-center gap-14 lg:flex-row justify-between px-12 lg:px-[100px] mt-12 lg:mt-32 mb-[67px] relative">
         <div className="flex flex-col gap-6 lg:gap-12 md:w-[650px] lg:basis-2/4">
           <h1 className="text-text font-normal font-default text-[32px] lg:text-[56px]">
-            Visit a <span className="text-primary font-bold">Park</span> away
-            from <span className="text-primary font-bold">Home</span> in the{" "}
-            <span className="text-primary font-bold">Metaverse</span>
+            Visit a <span className="color-primary font-bold">Park</span> away
+            from <span className="color-primary font-bold">Home</span> in the{" "}
+            <span className="color-primary font-bold">Metaverse</span>
           </h1>
           <p className="font-default font-normal text-text text-xl lg:text-2xl">
             We provide sentational preview of parks with specific animals of interest before the actual visit of our  and affordable parks in the
@@ -35,7 +34,7 @@ const Landing = () => {
               placeholder="Search for location"
               className="h-[54px] w-full max-w-[390px] border border-priBorder bg-white rounded-tl-lg rounded-bl-lg px-4 py-[18px] placeholder:text-placeholder placeholder:font-normal placeholder:font-default placeholder:text-base text-text font-normal font-default text-base outline-none"
             />
-            <button className="bg-primary flex justify-center items-center w-[230px] h-[54px] py-4 rounded-tr-lg rounded-br-lg text-white font-normal font-default text-base">
+            <button className="background-color-primary flex justify-center items-center w-[230px] h-[54px] py-4 rounded-tr-lg rounded-br-lg text-white font-normal font-default text-base">
               Search
             </button>
           </form>
@@ -45,22 +44,11 @@ const Landing = () => {
         </div>
       </section>
 
-      {/* divider */}
-      <div className="w-full bg-primary flex justify-evenly h-[70px] items-center">
-        <span className="flex items-center ">
-          <img src={MBToken} alt="" />
-          <span className="font-bold text-white font-inter text-base lg:text-[32px]">
-            MBToken
-          </span>
-        </span>
-        <img src={MetaMaskWhite} alt="" className="w-[110px] lg:max-w-full" />
-        <span className="flex items-center gap-3">
-          <img src={OpenSea} alt="" />
-          <span className="font-bold text-white font-poppins text-base lg:text-[32px]">
-            OpenSea
-          </span>
-        </span>
-      </div>
+      <section>
+      <ImageSlider images={images}/>
+      </section>
+
+    
 
       {/* next adventure */}
       <section className="px-12 lg:px-[100px]  mt-10 lg:mt-[58px] flex flex-col items-center gap-[43px]">
@@ -93,11 +81,11 @@ const Landing = () => {
       
                   </div>
                   <div className="w-full flex justify-start items-center gap-2">
-                    <img src={Star} alt="" />
-                    <img src={Star} alt="" />
-                    <img src={Star} alt="" />
-                    <img src={Star} alt="" />
-                    <img src={Star} alt="" />
+                    <img  src={Star} alt="" />
+                    <img  src={Star} alt="" />
+                    <img  src={Star} alt="" />
+                    <img  src={Star} alt="" />
+                    <img  src={Star} alt="" />
                   </div>
                 </section>
               </div>
@@ -107,7 +95,7 @@ const Landing = () => {
       
 
       {/* Metabnb Nfts */}
-      <section className="bg-primary p-8 md:p-[100px] flex flex-col md:flex-row justify-between items-center gap-10">
+      <section className="background-color-primary p-8 md:p-[100px] flex flex-col md:flex-row justify-between items-center gap-10">
         <div className="w-full max-w-[415px] flex flex-col basis-2/4">
           <h1 className="font-default font-bold text-white text-5xl mb-[35px]">
             Metraverse Safaris VR
@@ -117,7 +105,7 @@ const Landing = () => {
             experience with the platform. These experience gives our cutomer
             access to booking and actuall visiting the Parks and Game Reserves to enjoy and learn more.
           </p>
-          <button className="h-12 rounded-lg flex justify-center items-center w-[156px] bg-white text-primary font-default font-light font-base">
+          <button className="h-12 rounded-lg flex justify-center items-center w-[156px] bg-white color-primary font-default font-light font-base">
             <Link to="/">Learn More</Link>
           </button>
         </div>

@@ -1,0 +1,24 @@
+
+
+.tag {
+	text-align: center;
+
+}
+.partners{
+font-weight: bold;
+margin-bottom:16px
+}
+
+.slick-slide img {
+	margin: auto;
+	height: 50%;
+	width:120px;
+	
+	border-radius:3%
+}
+.carousel{
+	background-color:#daa520;
+    padding:3% 0;
+    overflow:hidden;
+}
+

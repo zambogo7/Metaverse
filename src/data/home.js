@@ -7,6 +7,7 @@ import {
   LakeNakuru,
   Marsabit,
   MasaiMara,
+  Oldonyo,
 } from "../assets";
 
 const home = [
@@ -57,6 +58,12 @@ const home = [
     name: "Crescent Island Game Sanctuary",
     animals: "Giraffe, zebra, hippos, antelope, wildebeest, and many birds such as goliath heron, spoonbills and giant kingfishers",
     image: Crescent,
+  },
+  {
+    id: "7",
+    name: "Ol Donyo Sabuk National Park",
+    animals: "Includes; buffalo, leopard, mongoose, bushbuck, olive baboon, colobus monkey, vervet monkey, Sykes' monkey, Kirk's dik-dik, bush pig, common duiker, reedbuck, rock hyrax, bushbaby, tree and ground squirrel, aardvark, porcupine, python and monitor lizard",
+    image: Oldonyo,
   },
 ];
 

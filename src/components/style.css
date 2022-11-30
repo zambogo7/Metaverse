@@ -1,0 +1,19 @@
+
+
+.tag {
+	text-align: center;
+
+}
+
+.slick-slide img {
+	margin: auto;
+	width: 50%;
+	height: 50%;
+	width:120px;
+	//background-color:wheat;
+	border-radius:3%
+}
+.carousel{
+	background-color:#daa520;
+}
+
