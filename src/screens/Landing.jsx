@@ -33,7 +33,7 @@ const Landing = () => {
               placeholder="Search for location"
               className="h-[54px] w-full max-w-[390px] border border-priBorder bg-white rounded-tl-lg rounded-bl-lg px-4 py-[18px] placeholder:text-placeholder placeholder:font-normal placeholder:font-default placeholder:text-base text-text font-normal font-default text-base outline-none"
             />
-            <button className="background-color-primary flex justify-center items-center w-[230px] h-[54px] py-4 rounded-tr-lg rounded-br-lg text-white font-normal font-default text-base">
+            <button className=" search-btn background-color-primary flex justify-center items-center w-[230px] h-[54px] py-4 rounded-tr-lg rounded-br-lg text-white font-normal font-default text-base">
               Search
             </button>
           </form>
@@ -79,7 +79,7 @@ const Landing = () => {
                     </span>
       
                   </div>
-                  <div className="w-full flex justify-start items-center gap-2">
+                  <div className="rating w-full flex justify-start items-center gap-2">
                     <img  src={Star} alt="" />
                     <img  src={Star} alt="" />
                     <img  src={Star} alt="" />
@@ -107,7 +107,7 @@ const Landing = () => {
             user experience. We have partnered with an assortment of game parks and game reserves to provide easy access to the enriched, native 
             wildlife ecosystem. Get a bonus on your next tour by booking with us.
           </p>
-          <button className="h-12 rounded-lg flex justify-center items-center w-[156px] bg-white color-primary font-default font-light font-base">
+          <button className=" learnmore-btn h-12 rounded-lg flex justify-center items-center w-[156px] bg-white color-primary font-default font-light font-base">
             <Link to="/">Learn More</Link>
           </button>
         </div>

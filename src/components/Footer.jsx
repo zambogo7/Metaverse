@@ -4,7 +4,7 @@ import { Facebook, Instagram, LogoWhite, Twitter } from "../assets";
 
 const Footer = () => {
   return (
-    <footer className="w-full lg:h-[322px] pt-16 pb-9 px-8 lg:px-[100px] bg-footer grid grid-cols-2 lg:flex gap-8 lg:flex-row justify-between items-start">
+    <footer className=" footer-bg w-full lg:h-[322px] pt-16 pb-9 px-8 lg:px-[100px] grid grid-cols-2 lg:flex gap-8 lg:flex-row justify-between items-start">
       <section className="flex flex-col gap-8 lg:gap-50">
   
         <img src={LogoWhite} alt="" />

@@ -4,6 +4,7 @@ import { Logo } from "../assets";
 import Menu from "./Menu";
 import Modal from "./Modal";
 import './index.css'
+import '../screens/index.css';
 
 const Navbar = () => {
   const [modalOpen, setModalOpen] = useState(false);
@@ -36,7 +37,7 @@ const Navbar = () => {
       </div>
 
       <button
-        className=" h-12 rounded-xl hidden lg:flex justify-center items-center w-[170px] background-color-primary bg-gradient-to-t text-white font-default font-light text-base"
+        className=" getstarted-btn h-12 rounded-xl hidden lg:flex justify-center items-center w-[170px] background-color-primary bg-gradient-to-t text-white font-default font-light text-base"
         onClick={() => {
           setModalOpen(true);
         }}

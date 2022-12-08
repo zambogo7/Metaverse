@@ -1,5 +1,6 @@
 .default{
-background-color:black;
+/* background-color:hsla(327,11%,38%,1); */
+background:conic-gradient(from 180deg at 50% 50%, #2C5060 -13.12deg, #6C5662 61.87deg, #6C5662 163.12deg, #2C5060 320.63deg, #2C5060 346.88deg, #6C5662 421.87deg);
 padding:3%;
 margin: auto;
 }
@@ -8,6 +9,9 @@ background-color:#daa520;
 }
 .nav__link, .footer__link{
 color:wheat;
+}
+.nav__link:hover, .footer__link:hover{
+color:#ffff;
 }
 
 @media only screen and (max-width: 600px) {
@@ -42,4 +46,8 @@ color:wheat;
     .default{
         padding:3% 5% 5%;
     }
+}
+
+.footer-bg, .menu-bg{
+    background:conic-gradient(from 180deg at 50% 50%, #2C5060 -13.12deg, #6C5662 61.87deg, #6C5662 163.12deg, #2C5060 320.63deg, #2C5060 346.88deg, #6C5662 421.87deg);
 }

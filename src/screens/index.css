@@ -7,7 +7,7 @@ height:30px;
 position:relative;
 }
 .button:hover{
-background-color:black;
+    background:conic-gradient(from 180deg at 50% 50%, #2C5060 -13.12deg, #6C5662 61.87deg, #6C5662 163.12deg, #2C5060 320.63deg, #2C5060 346.88deg, #6C5662 421.87deg);
 color:white;
 z-index:3000;
 transform:traslate(12%, 5%);
@@ -22,7 +22,7 @@ height:350px;
 .color-primary{
 color:#daa520;
 }
-.default-cards-landing:hover{
+.default-cards-landing:hover, .getstarted-btn:hover, .learnmore-btn:hover, .search-btn:hover{
 transform: scale(1.02);
 cursor:pointer;
 opacity:0.8;
@@ -35,4 +35,7 @@ cursor:pointer;
 opacity:0.8;
 transition: .25s ease-in-out;
 z-index:1000;
+}
+.rating{
+    
 }
