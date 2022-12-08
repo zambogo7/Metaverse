@@ -41,6 +41,9 @@ const Places = () => {
                     <img src={Star} alt="" />
                   </div>
                 </section>
+                <div >
+                    <button className="button">View in VR</button>
+                </div>
               </div>
             ))}
         </div>

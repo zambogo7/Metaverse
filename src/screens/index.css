@@ -1,3 +1,18 @@
+.button{
+padding:2px;
+border-radius:8px;
+background-color:#daa520;
+width:100px;
+height:30px;
+position:relative;
+}
+.button:hover{
+background-color:black;
+color:white;
+z-index:3000;
+transform:traslate(12%, 5%);
+}
+
 .default-cards-landing{
 height:400px;
 }
@@ -6,4 +21,18 @@ height:350px;
 }
 .color-primary{
 color:#daa520;
+}
+.default-cards-landing:hover{
+transform: scale(1.02);
+cursor:pointer;
+opacity:0.8;
+transition: .25s ease-in-out;
+z-index:1000;
+}
+.default-cards-places:hover{
+transform: scale(1.02);
+cursor:pointer;
+opacity:0.8;
+transition: .25s ease-in-out;
+z-index:1000;
 }

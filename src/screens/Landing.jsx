@@ -24,9 +24,8 @@ const Landing = () => {
             <span className="color-primary font-bold">Metaverse</span>
           </h1>
           <p className="font-default font-normal text-text text-xl lg:text-2xl">
-            We provide sentational preview of parks with specific animals of interest before the actual visit of our  and affordable parks in the
-            metaverse, get a chance to turn your imagination to reality at your
-            comfort zone!
+            We provide a sensational and quintessential preview of game parks and game reserves with specific animals of interest as a
+            precursor to the actual visit to our affordable and prestigious tourist destinations in the Metaverse.
           </p>
           <form className="flex">
             <input
@@ -88,6 +87,9 @@ const Landing = () => {
                     <img  src={Star} alt="" />
                   </div>
                 </section>
+                <div >
+                    <button className="button">View in VR</button>
+                </div>
               </div>
             ))}
         </div>
@@ -101,9 +103,9 @@ const Landing = () => {
             Metraverse Safaris VR
           </h1>
           <p className="mb-14 text-white font-default">
-            Discover our National Parks and Game reserves in the Metaverse. Loyal customers gets amazing
-            experience with the platform. These experience gives our cutomer
-            access to booking and actuall visiting the Parks and Game Reserves to enjoy and learn more.
+            Discover our Game Parks and Game reserves in the Metaverse. We guarantee our customers a thrilling, entertaining, and immersive 
+            user experience. We have partnered with an assortment of game parks and game reserves to provide easy access to the enriched, native 
+            wildlife ecosystem. Get a bonus on your next tour by booking with us.
           </p>
           <button className="h-12 rounded-lg flex justify-center items-center w-[156px] bg-white color-primary font-default font-light font-base">
             <Link to="/">Learn More</Link>
