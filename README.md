@@ -1,7 +1,7 @@
 # METRAVERSE SAFARI WEBSITE
 
 Live 
-This is the METRAVERSE SAFARI WEBSITE application built with [React](https://reactjs.org/) (Frontend) and  [Node](https://nodejs.org/) (Backend)
+This is the METRAVERSE SAFARI WEBSITE application built with [React](https://reactjs.org/) (Frontend) and  [Django](https://www.djangoproject.com/) (Backend)
 
 ## Getting Started.
 
