@@ -26,7 +26,7 @@ const Modal = ({ setOpenModal }) => {
             <span className="flex justify-center items-center gap-4">
               <img src={MetaMask} alt="" />
               <span className="font-semibold font-sora text-alt text-lg">
-                Log In
+               <a href="http://127.0.0.1:8000/login/?next=/ "> Log In </a>
               </span>
             </span>
             <span>
@@ -37,7 +37,7 @@ const Modal = ({ setOpenModal }) => {
             <span className="flex justify-center items-center gap-4">
               <img src={Wallet} alt="" />
               <span className="font-bold font-sora text-alt text-lg">
-                Sign Up
+                <a href="http://127.0.0.1:8000/register/"> Sign Up</a>
               </span>
             </span>
             <span>
